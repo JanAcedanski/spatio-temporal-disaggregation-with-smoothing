@@ -1,4 +1,4 @@
-# spatio-temporal-disaggregation-with-smoothing
+# Spatio-temporal disaggregation of time series with smoothing and regression-based algorithms
 
 The repository contains Julia codes for:
 - spatio-temporal disaggregation of annual time series into quarterly ones
