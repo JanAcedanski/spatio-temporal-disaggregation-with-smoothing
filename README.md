@@ -7,3 +7,8 @@ The repository contains Julia codes for:
 
 The main files:
 - disaggregate_all.jl for disaggregation
+- do_all.jl for nowcasting experiment
+
+The repository accompanies the paper:
+Jan Acedański, "Disaggregation and nowcasting of regional GDP series with
+a simple smoothing algorithm", Journal of Official Statistics, submitted
