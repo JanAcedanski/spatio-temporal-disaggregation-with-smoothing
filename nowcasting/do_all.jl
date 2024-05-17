@@ -1,3 +1,15 @@
+####################################################################################
+# This is the main file that performs a pseudo-real time nowcasting experiment
+# comparing performance of smoothing and a regression-based disaggregation algorithms.
+#
+# The script accompanies the paper:
+# Jan Acedański, "Disaggregation and nowcasting of regional GDP series with a simple 
+# smoothing algorithm", Journal of Official Statistics, submitted
+#
+# Author: Jan Acedański, University of Economics in Katowice
+# Date: 17/05/2024
+####################################################################################
+
 using FileIO, Statistics, LinearAlgebra, XLSX, NLopt, Plots, Printf, StatsBase,
       StatsPlots, DataFrames, GLM, RowEchelon, NaNStatistics, JuMP, Ipopt
 
